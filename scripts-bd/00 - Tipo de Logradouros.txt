@@ -1,0 +1,12 @@
+/* SCRIPT P/ BANCO */
+
+CREATE TABLE ivy.tipos_logradouro (
+	cod_tipo_logradouro INT auto_increment NOT NULL,
+	descricao VARCHAR(50) NOT NULL,
+	abreviacao varchar(10) NULL,
+	CONSTRAINT tipos_logradouro_PK PRIMARY KEY (cod_tipo_logradouro)
+)
+ENGINE=InnoDB
+DEFAULT CHARSET=utf8
+COLLATE=utf8_general_ci;
+
