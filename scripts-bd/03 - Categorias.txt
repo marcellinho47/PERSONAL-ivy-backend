@@ -1,6 +1,8 @@
 CREATE TABLE ivy.categorias (
+
 	cod_categoria INT auto_increment NOT NULL,
-	descricao varchar(50) NOT NULL,
+	descricao varchar(30) NOT NULL,
+
 	CONSTRAINT categorias_PK PRIMARY KEY (cod_categoria),
 	CONSTRAINT categorias_UN UNIQUE KEY (descricao)
 )

@@ -1,10 +1,13 @@
-CREATE TABLE ivy.vendas_forma_pagto (
+CREATE TABLE ivy.vendas_formas_pagto (
+
 	cod_venda_forma_pagto INT auto_increment NOT NULL,
 	cod_venda INT NOT NULL,
 	cod_forma_pagto INT NOT NULL,
+
 	valor_total DOUBLE NOT NULL,
 	valor_pago DOUBLE DEFAULT 0 NOT NULL,
 	qtd_parcelas INT DEFAULT 1 NOT NULL,
+
 	CONSTRAINT vendas_forma_pagto_PK PRIMARY KEY (cod_venda_forma_pagto),
 	CONSTRAINT vendas_forma_pagto_UN UNIQUE KEY (cod_venda,cod_forma_pagto),
 	CONSTRAINT vendas_forma_pagto_FK FOREIGN KEY (cod_venda) REFERENCES ivy.vendas(cod_venda),

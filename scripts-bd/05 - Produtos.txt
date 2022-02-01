@@ -1,12 +1,15 @@
 CREATE TABLE ivy.produtos (
+
 	cod_produto INT auto_increment NOT NULL,
 	cod_categoria INT NOT NULL,
 	nome varchar(100) NOT NULL,
 	descricao TEXT NULL,
+
 	operador_inclusao INT NOT NULL,
 	data_inclusao DATETIME DEFAULT NOW() NOT NULL,
 	operador_exclusao INT NULL,
 	data_exclusao DATETIME NULL,
+
 	CONSTRAINT produtos_PK PRIMARY KEY (cod_produto),
 	CONSTRAINT produtos_UN UNIQUE KEY (nome),
 	CONSTRAINT produtos_FK FOREIGN KEY (cod_categoria) REFERENCES ivy.categorias(cod_categoria),
