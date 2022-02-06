@@ -1,3 +1,5 @@
+USE ivy;
+
 CREATE TABLE ivy.tipos_entrega (
 
 	cod_tipo_entrega INT auto_increment NOT NULL,

@@ -1,3 +1,5 @@
+USE ivy;
+
 CREATE TABLE ivy.contatos (
 
 	cod_contato INT auto_increment NOT NULL,

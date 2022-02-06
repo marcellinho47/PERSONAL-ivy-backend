@@ -1,3 +1,5 @@
+USE ivy;
+
 CREATE TABLE ivy.produtos (
 
 	cod_produto INT auto_increment NOT NULL,

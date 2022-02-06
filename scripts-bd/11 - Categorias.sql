@@ -1,3 +1,5 @@
+USE ivy;
+
 CREATE TABLE ivy.categorias (
 
 	cod_categoria INT auto_increment NOT NULL,

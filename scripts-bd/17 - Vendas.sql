@@ -1,3 +1,5 @@
+USE ivy;
+
 CREATE TABLE `vendas` (
   `cod_venda` int NOT NULL AUTO_INCREMENT,
   `cod_pessoa_cliente` int NOT NULL,

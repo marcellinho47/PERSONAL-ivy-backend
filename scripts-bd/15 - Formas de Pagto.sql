@@ -1,3 +1,5 @@
+USE ivy;
+
 CREATE TABLE ivy.formas_pagto (
 
 	cod_forma_pagto INT auto_increment NOT NULL,

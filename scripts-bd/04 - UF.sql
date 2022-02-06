@@ -1,3 +1,5 @@
+USE ivy;
+
 CREATE TABLE ivy.uf (
 	cod_uf varchar(2) NOT NULL,
 	estado varchar(20) NOT NULL,

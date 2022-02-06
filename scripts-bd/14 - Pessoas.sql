@@ -1,3 +1,5 @@
+USE ivy;
+
 CREATE TABLE ivy.pessoas (
 
 	cod_pessoa INT auto_increment NOT NULL,
