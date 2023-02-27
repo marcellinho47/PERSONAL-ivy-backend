@@ -3,3 +3,10 @@
 /.project
 scripts-bd/.DS_Store
 .DS_Store
+.idea/vcs.xml
+.idea/misc.xml
+.idea/jarRepositories.xml
+.idea/google-java-format.xml
+.idea/encodings.xml
+.idea/compiler.xml
+.idea/workspace.xml
